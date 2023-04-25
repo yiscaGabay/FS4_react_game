@@ -1,0 +1,73 @@
+*{
+  padding: 10px;
+  /* background-color:lightpink; */
+}
+
+#gameBoard{
+  background-color:rgb(232, 255, 182);
+
+}
+
+#oneGamerArea{
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px rgb(195, 5, 135);
+  width: 25%;
+}
+
+label{
+  font-size: 20px;
+  padding: 5px;
+}
+
+span{
+  font-size: 25px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: rgb(240, 78, 183);
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: rgb(214, 220, 180);
+  /* background-color: transparent; */
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button {
+  height: 40px;
+  width: auto;
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+input{
+  padding: 10px;
+}
+
+.bestGamersBoard{
+  margin: 20px;
+  padding: 10px;
+  border: solid 5px  rgb(195, 5, 135);
+  width: 50%;
+}
+
+#gamersBoards{
+  display: flex;
+}
+
+.bestGamersBoard label{
+  padding: 1px;
+}
